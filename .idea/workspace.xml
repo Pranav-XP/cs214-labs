@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added week 3 solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,15 +56,15 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Pranav/OneDrive/Desktop/USP/2024/CS214 TUTORING/solution/src/main/java/dev/pranavtech/week3",
+    "last_opened_file_path": "C:/Program Files/MATLAB/R2023a/extern/engines/java/jar/engine.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723280394117</updated>
-      <workItem from="1723280395220" duration="2530000" />
+      <workItem from="1723280395220" duration="6132000" />
     </task>
     <task id="LOCAL-00001" summary="added week 3 solution">
       <option name="closed" value="true" />
