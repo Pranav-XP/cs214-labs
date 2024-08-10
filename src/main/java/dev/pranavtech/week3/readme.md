@@ -11,7 +11,7 @@ This Java program reads a list of students from a CSV file, sorts them based on 
     - Implements the `Comparable` interface to enable sorting by GPA in descending order.
     - Includes a `toString()` method to print student details in a readable format.
 
-2. **SCIMS Class**:
+2. **Main Class**:
     - The `main` class that drives the program.
     - Uses a `PriorityQueue<Student>` to automatically sort students by GPA.
     - Reads student data from a CSV file (`students.csv`), skipping the header.
@@ -40,7 +40,7 @@ id,name,GPA
     - **`compareTo` Method**: Determines the order of students in the priority queue based on GPA in descending order. You can either use the `Float.compare()` method or a conditional approach.
     - **`toString` Method**: Formats the student's information for easy printing.
 
-- **SCIMS Class**:
+- **Main Class**:
     - **Reading CSV**: The program reads each line of the CSV, parses the student data, and adds each student to the priority queue.
     - **Priority Queue**: Automatically orders students so that the student with the highest GPA is always at the front.
     - **Awarding Prizes**: The program selects the top 5 students with a GPA of 4.0 or higher and prints the winners.
