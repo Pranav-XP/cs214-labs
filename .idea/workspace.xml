@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added week 3 solution" />
+    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added week 3 solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pranav-XP"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Pranav-XP/cs214-labs.git",
+    "accountId": "8a5f1b33-474e-4873-ae76-bf901a8b7774"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -34,13 +49,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Fibonacci.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Pranav/OneDrive/Desktop/USP/2024/CS214 TUTORING/solution/src/main/resources",
+    "last_opened_file_path": "C:/Users/Pranav/OneDrive/Desktop/USP/2024/CS214 TUTORING/solution/src/main/java/dev/pranavtech/week3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\java\dev\pranavtech\week3" />
       <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\resources" />
     </key>
   </component>
@@ -73,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723280394117</updated>
-      <workItem from="1723280395220" duration="887000" />
+      <workItem from="1723280395220" duration="2530000" />
     </task>
     <task id="LOCAL-00001" summary="added week 3 solution">
       <option name="closed" value="true" />
