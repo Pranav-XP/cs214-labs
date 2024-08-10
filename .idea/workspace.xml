@@ -35,6 +35,9 @@
     "accountId": "8a5f1b33-474e-4873-ae76-bf901a8b7774"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -90,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723280394117</updated>
-      <workItem from="1723280395220" duration="6132000" />
+      <workItem from="1723280395220" duration="6712000" />
     </task>
     <task id="LOCAL-00001" summary="added week 3 solution">
       <option name="closed" value="true" />

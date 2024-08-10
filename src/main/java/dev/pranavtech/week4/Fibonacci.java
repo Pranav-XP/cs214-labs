@@ -12,14 +12,14 @@ public class Fibonacci {
 
     static void runFib(){
         long startTime,endTime, timeDifference;
-        int expN[] = new int[50];
+        int[] expN = new int[50];
 
         for (int i = 0; i < expN.length; i++) {
             expN[i] = i + 1;
         }
-        long answer = 0;
-        ArrayList<Long> resultsRecursive = new ArrayList<Long>();
-        ArrayList<Long> resultsIterative = new ArrayList<Long>();
+        long answer;
+        ArrayList<Long> resultsRecursive = new ArrayList<>();
+        ArrayList<Long> resultsIterative = new ArrayList<>();
 
         for(int i=0;i<expN.length;i++){
             startTime = System.nanoTime();
