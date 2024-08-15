@@ -4,39 +4,34 @@ import com.mathworks.engine.MatlabEngine;
 
 import java.util.ArrayList;
 
-public class Fibonacci {
+public class Fibonacci2 {
 
     public static void main(String[] args) {
         runFib();
     }
 
     static void runFib(){
-        long startTime,endTime, timeDifference;
         int[] expN = new int[50];
 
         for (int i = 0; i < expN.length; i++) {
             expN[i] = i + 1;
         }
-        long answer;
-        ArrayList<Long> resultsRecursive = new ArrayList<>();
-        ArrayList<Long> resultsIterative = new ArrayList<>();
+
+        ArrayList<Long> operationsRecursive = new ArrayList<>();
+        ArrayList<Long> operationsIterative = new ArrayList<>();
 
         for(int i=0;i<expN.length;i++){
-            startTime = System.nanoTime();
-            answer = fibRec(expN[i]);
-            endTime = System.nanoTime();
-            timeDifference = endTime - startTime;
-            resultsRecursive.add(timeDifference);
+            long[] operationCounter = new long[1]; // Array to hold operation count
 
-            System.out.println(i+" [Rn="+expN[i]+":"+answer+" Time:"+timeDifference+"ns]");
+            fibRec(expN[i], operationCounter);
+            operationsRecursive.add(operationCounter[0]);
 
-            startTime = System.nanoTime();
-            answer = fibIter(expN[i]);
-            endTime = System.nanoTime();
-            timeDifference = endTime - startTime;
-            resultsIterative.add(timeDifference);
+            operationCounter[0] = 0; // Reset counter
+            fibIter(expN[i], operationCounter);
+            operationsIterative.add(operationCounter[0]);
 
-            System.out.println(i+" [Rn="+expN[i]+":"+answer+" Time:"+timeDifference+"ns]");
+            System.out.println(i+" [Rn="+expN[i]+" Recursive Ops:"+operationsRecursive.get(i)
+                    +" Iterative Ops:"+operationsIterative.get(i)+"]");
         }
 
         // StringBuilder for each output string
@@ -56,9 +51,9 @@ public class Fibonacci {
 
         // Building the yRecursive string
         yRecursiveBuilder.append("yRecursive=[");
-        for (int i = 0; i < resultsRecursive.size(); i++) {
-            yRecursiveBuilder.append(resultsRecursive.get(i));
-            if (i < resultsRecursive.size() - 1) {
+        for (int i = 0; i < operationsRecursive.size(); i++) {
+            yRecursiveBuilder.append(operationsRecursive.get(i));
+            if (i < operationsRecursive.size() - 1) {
                 yRecursiveBuilder.append(" ");
             }
         }
@@ -66,9 +61,9 @@ public class Fibonacci {
 
         // Building the yIterative string
         yIterativeBuilder.append("yIterative=[");
-        for (int i = 0; i < resultsIterative.size(); i++) {
-            yIterativeBuilder.append(resultsIterative.get(i));
-            if (i < resultsIterative.size() - 1) {
+        for (int i = 0; i < operationsIterative.size(); i++) {
+            yIterativeBuilder.append(operationsIterative.get(i));
+            if (i < operationsIterative.size() - 1) {
                 yIterativeBuilder.append(" ");
             }
         }
@@ -102,8 +97,8 @@ public class Fibonacci {
 
             // Set labels and title
             eng.eval("xlabel('Input Size');");
-            eng.eval("ylabel('Execution Time');");
-            eng.eval("title('Recursive vs Iterative Time Analysis');");
+            eng.eval("ylabel('Number of Operations');");
+            eng.eval("title('Recursive vs Iterative Operation Count Analysis');");
             eng.eval("legend('Recursive', 'Iterative');");
 
             // Show the plot
@@ -121,27 +116,29 @@ public class Fibonacci {
 
     }
 
-    public static long fibRec(long n){
+    public static long fibRec(long n, long[] operationCounter){
+        operationCounter[0]++; // Count the operation
         if(n<=1){
             return n;
         }else {
-            return fibRec(n-1) + fibRec(n-2);
+            return fibRec(n-1, operationCounter) + fibRec(n-2, operationCounter);
         }
     }
 
-    public static long fibIter(long n){
+    public static long fibIter(long n, long[] operationCounter){
         if(n<=1){
+            operationCounter[0]++; // Count the operation
             return n;
         }
         long fib =  1;
         long prevFib = 1;
 
         for(int i = 2; i < n; i++){
+            operationCounter[0]++; // Count the operation
             long temp = fib;
             fib += prevFib;
             prevFib = temp;
         }
         return fib;
     }
-
 }

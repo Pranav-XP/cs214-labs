@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added week 3 solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Complexity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,24 +26,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Pranav-XP"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pranav-XP&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Pranav-XP/cs214-labs.git",
-    "accountId": "8a5f1b33-474e-4873-ae76-bf901a8b7774"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pranav-XP/cs214-labs.git&quot;,
+    &quot;accountId&quot;: &quot;8a5f1b33-474e-4873-ae76-bf901a8b7774&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kScP0qPrebNhdjCze7T2cj5ucp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,7 +55,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Complexity.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.Fibonacci2.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -77,6 +82,40 @@
       <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\resources" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.Fibonacci2">
+    <configuration name="Complexity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Complexity" />
+      <module name="solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.pranavtech.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Fibonacci2" />
+      <module name="solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.pranavtech.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Fibonacci2" />
+        <item itemvalue="Application.Complexity" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,7 +132,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723280394117</updated>
-      <workItem from="1723280395220" duration="6712000" />
+      <workItem from="1723280395220" duration="6939000" />
+      <workItem from="1723369698731" duration="805000" />
+      <workItem from="1723445262357" duration="3544000" />
+      <workItem from="1723500042989" duration="53000" />
+      <workItem from="1723547721705" duration="816000" />
+      <workItem from="1723631833168" duration="1065000" />
+      <workItem from="1723720838105" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="added week 3 solution">
       <option name="closed" value="true" />

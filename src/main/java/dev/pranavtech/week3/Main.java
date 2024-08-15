@@ -4,6 +4,8 @@ package dev.pranavtech.week3;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 class Student implements Comparable<Student> {
@@ -41,11 +43,15 @@ public class Main {
         // PriorityQueue will use the natural ordering of Student, based on GPA descending
         PriorityQueue<Student> studentPQ = new PriorityQueue<>();
 
+
         // Read the CSV file and populate the PriorityQueue
         String csvFile = "src/main/resources/students.csv";
         String line;
         String csvSplitBy = ",";
 
+        //Creating an Array
+        ArrayList<Student> studentArrayList = new ArrayList<>();
+        //Reading File
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
             // Skip the header
             br.readLine();
@@ -58,32 +64,43 @@ public class Main {
 
                 Student s = new Student(id, name, gpa);
                 studentPQ.add(s);
+                studentArrayList.add(s);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        // Distribute the prize money to the top 5 students with GPA >= 4.0
-        int maxRecipients = 5;
-        int recipients = 0;
-
-
-        System.out.println("Top " + maxRecipients + " students with GPA >= 4.0 eligible for the prize:");
-
-        while (!studentPQ.isEmpty() && recipients < maxRecipients) {
-            Student topStudent = studentPQ.remove();
-
-            if (topStudent.GPA >= 4.0) {
-                System.out.println(topStudent + " wins!");
-                recipients++;
-            }
-        }
-
-        // If there are fewer than 5 eligible students
-        if (recipients < maxRecipients) {
-            System.out.println("Only " + recipients + " students were eligible for the prize.");
-        }
-    }
-
+        CompareStudentsbyGPA compare = new CompareStudentsbyGPA();
+        studentArrayList.sort(compare);
+        System.out.println(studentArrayList);
+   }
 }
 
+class CompareStudentsbyGPA implements Comparator<Student> {
+    @Override
+    public int compare(Student o1, Student o2) {
+        return Float.compare(o2.GPA, o1.GPA);
+    }
+}
+
+//        // Distribute the prize money to the top 5 students with GPA >= 4.0
+//        int maxRecipients = 5;
+//        int recipients = 0;
+//
+//
+//        System.out.println("Top " + maxRecipients + " students with GPA >= 4.0 eligible for the prize:");
+//
+//        while (!studentPQ.isEmpty() && recipients < maxRecipients) {
+//            Student topStudent = studentPQ.remove();
+//
+//            if (topStudent.GPA >= 4.0) {
+//                System.out.println(topStudent + " wins!");
+//                recipients++;
+//            }
+//        }
+//
+//        // If there are fewer than 5 eligible students
+//        if (recipients < maxRecipients) {
+//            System.out.println("Only " + recipients + " students were eligible for the prize.");
+//        }
+//
