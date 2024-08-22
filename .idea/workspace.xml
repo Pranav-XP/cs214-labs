@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added week 3 solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Complexity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci2.java" afterDir="false" />
+    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added fibonacci operations graph">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Scratch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/World University Rankings 2023-Cleaned.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week4/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,12 +58,13 @@
     "Application.Fibonacci.executor": "Run",
     "Application.Fibonacci2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Scratch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Program Files/MATLAB/R2023a/extern/engines/java/jar/engine.jar",
+    "last_opened_file_path": "C:/Users/Pranav/OneDrive/Desktop/USP/2024/CS214 TUTORING/solution/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,16 +73,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\java\dev\pranavtech\week3" />
       <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\resources" />
+      <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\java\dev\pranavtech\week3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci2">
+  <component name="RunManager" selected="Application.Scratch">
     <configuration name="Complexity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Complexity" />
       <module name="solution" />
@@ -109,8 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Scratch" />
+      <module name="solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.pranavtech.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scratch" />
         <item itemvalue="Application.Fibonacci2" />
         <item itemvalue="Application.Complexity" />
       </list>
@@ -138,7 +153,10 @@
       <workItem from="1723500042989" duration="53000" />
       <workItem from="1723547721705" duration="816000" />
       <workItem from="1723631833168" duration="1065000" />
-      <workItem from="1723720838105" duration="513000" />
+      <workItem from="1723720838105" duration="710000" />
+      <workItem from="1723772466188" duration="1661000" />
+      <workItem from="1723794143475" duration="1545000" />
+      <workItem from="1723796224084" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="added week 3 solution">
       <option name="closed" value="true" />
@@ -148,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723281047460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added fibonacci operations graph">
+      <option name="closed" value="true" />
+      <created>1723721466935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723721466935</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added week 3 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="added week 3 solution" />
+    <MESSAGE value="added fibonacci operations graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fibonacci operations graph" />
   </component>
 </project>
