@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added fibonacci operations graph">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week5/ThreadExample.java" afterDir="false" />
+    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added simple ThreadExample">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week5/ThreadMedium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,9 @@
     "Application.Fibonacci2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Scratch.executor": "Run",
+    "Application.SumExample.executor": "Run",
     "Application.ThreadExample.executor": "Run",
+    "Application.ThreadMedium.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -82,20 +85,7 @@
       <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\java\dev\pranavtech\week3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadExample">
-    <configuration name="Complexity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Complexity" />
-      <module name="solution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.pranavtech.week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadMedium">
     <configuration name="Fibonacci2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Fibonacci2" />
       <module name="solution" />
@@ -122,8 +112,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.SumExample" />
+      <module name="solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.pranavtech.week5.VariableThreadJoinExample" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.ThreadExample" />
+      <module name="solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.pranavtech.week5.VariableThreadJoinExample" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMedium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.ThreadMedium" />
       <module name="solution" />
       <extension name="coverage">
         <pattern>
@@ -137,10 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadMedium" />
+        <item itemvalue="Application.SumExample" />
         <item itemvalue="Application.ThreadExample" />
         <item itemvalue="Application.Scratch" />
         <item itemvalue="Application.Fibonacci2" />
-        <item itemvalue="Application.Complexity" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +187,7 @@
       <workItem from="1723772466188" duration="1661000" />
       <workItem from="1723794143475" duration="1545000" />
       <workItem from="1723796224084" duration="140000" />
-      <workItem from="1724322399966" duration="461000" />
+      <workItem from="1724322399966" duration="2727000" />
     </task>
     <task id="LOCAL-00001" summary="added week 3 solution">
       <option name="closed" value="true" />
@@ -196,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724322573099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added simple ThreadExample">
+      <option name="closed" value="true" />
+      <created>1724322972947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724322972948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +242,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added week 3 solution" />
     <MESSAGE value="added fibonacci operations graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fibonacci operations graph" />
+    <MESSAGE value="added simple ThreadExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="added simple ThreadExample" />
   </component>
 </project>
