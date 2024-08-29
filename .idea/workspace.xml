@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added simple ThreadExample">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week5/ThreadMedium.java" afterDir="false" />
+    <list default="true" id="3211b3f2-b261-4dfe-ab66-0cfb798f584c" name="Changes" comment="added medium thread example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week6/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week5/ThreadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pranavtech/week5/ThreadExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +56,16 @@
     "Application.Complexity.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.Fibonacci2.executor": "Run",
+    "Application.FileReading.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyStack.executor": "Run",
     "Application.Scratch.executor": "Run",
     "Application.SumExample.executor": "Run",
+    "Application.ThreadExample (1).executor": "Run",
     "Application.ThreadExample.executor": "Run",
     "Application.ThreadMedium.executor": "Run",
+    "Application.UniversityRankingParser (1).executor": "Run",
+    "Application.UniversityRankingParser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -84,14 +89,17 @@
       <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\resources" />
       <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\java\dev\pranavtech\week3" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pranav\OneDrive\Desktop\USP\2024\CS214 TUTORING\solution\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadMedium">
-    <configuration name="Fibonacci2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Fibonacci2" />
+  <component name="RunManager" selected="Application.MyStack">
+    <configuration name="FileReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.FileReading" />
       <module name="solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.pranavtech.week4.*" />
+          <option name="PATTERN" value="dev.pranavtech.week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week4.Scratch" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week6.MyStack" />
       <module name="solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.pranavtech.week4.*" />
+          <option name="PATTERN" value="dev.pranavtech.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.SumExample" />
-      <module name="solution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.pranavtech.week5.VariableThreadJoinExample" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.ThreadExample" />
       <module name="solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.pranavtech.week5.VariableThreadJoinExample" />
+          <option name="PATTERN" value="dev.pranavtech.week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,8 +133,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMedium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.ThreadMedium" />
+    <configuration name="UniversityRankingParser (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.UniversityRankingParser" />
+      <module name="solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.pranavtech.week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityRankingParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pranavtech.week5.UniversityRankingParser" />
       <module name="solution" />
       <extension name="coverage">
         <pattern>
@@ -153,19 +161,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadMedium" />
-        <item itemvalue="Application.SumExample" />
-        <item itemvalue="Application.ThreadExample" />
-        <item itemvalue="Application.Scratch" />
-        <item itemvalue="Application.Fibonacci2" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.UniversityRankingParser" />
+        <item itemvalue="Application.UniversityRankingParser (1)" />
+        <item itemvalue="Application.FileReading" />
+        <item itemvalue="Application.ThreadExample (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
       </set>
     </attachedChunks>
   </component>
@@ -187,7 +195,14 @@
       <workItem from="1723772466188" duration="1661000" />
       <workItem from="1723794143475" duration="1545000" />
       <workItem from="1723796224084" duration="140000" />
-      <workItem from="1724322399966" duration="2727000" />
+      <workItem from="1724322399966" duration="3467000" />
+      <workItem from="1724377743577" duration="1961000" />
+      <workItem from="1724380453669" duration="55000" />
+      <workItem from="1724383495554" duration="934000" />
+      <workItem from="1724450635701" duration="614000" />
+      <workItem from="1724467633990" duration="2200000" />
+      <workItem from="1724474108113" duration="1684000" />
+      <workItem from="1724915371225" duration="3374000" />
     </task>
     <task id="LOCAL-00001" summary="added week 3 solution">
       <option name="closed" value="true" />
@@ -221,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724322972948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added medium thread example">
+      <option name="closed" value="true" />
+      <created>1724325169531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724325169531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +266,7 @@
     <MESSAGE value="added week 3 solution" />
     <MESSAGE value="added fibonacci operations graph" />
     <MESSAGE value="added simple ThreadExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="added simple ThreadExample" />
+    <MESSAGE value="added medium thread example" />
+    <option name="LAST_COMMIT_MESSAGE" value="added medium thread example" />
   </component>
 </project>
